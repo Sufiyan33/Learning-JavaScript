@@ -1,6 +1,8 @@
 console.log("var keyword and it's issues :: ")
 
 var a = 12;
+var a = "test"
+// this is the issue
 var b = "sufiyan";
 var c = 109.2;
 
