@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Find Age using switch case</title>
+        <link rel="stylesheet" href="SwitchCase.css">
+    </head>
+
+    <body>
+        <h1>Find Age using switch case</h1>
+
+        <p id="demo"></p>
+        <script>
+            let reseult
+            let age = 50
+            age = Number.parseInt(age)
+            switch(age){
+                case 10:
+                    reseult ="Your age is less than 10"
+                    break;
+                case 20:
+                    reseult ="Your age is between 10 & 20"
+                    break;
+                case 30:
+                    reseult ="Your age is between 20 & 30"
+                    break;
+                case 40:
+                    reseult ="Your age is between 30 & 40"
+                    break;
+                case 50:
+                    reseult ="Your age is between 40 & 50"
+                    break
+                default:
+                    reseult = "Your age is so special"
+            }
+            document.getElementById("demo").innerHTML=reseult
+        </script>
+    </body>
+</html>
