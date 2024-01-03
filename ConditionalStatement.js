@@ -8,3 +8,7 @@ if(a > 30){
 }else{
     console.log("number is very small")
 }
+
+if(new Date().getHours < 18){
+    console.log("Good Day 🙂")
+}
