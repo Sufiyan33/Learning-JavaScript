@@ -1,0 +1,10 @@
+h1{
+    background-color: tomato;
+    color: white;
+    width: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    stroke-width: 5;
+    stroke: black;
+    border: 2px solid black;
+}
