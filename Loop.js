@@ -20,3 +20,8 @@ for(let b of "Sufiyan"){
     console.log(b)
 }
 
+let i = 0;
+for(; i<10; ){
+    console.log(i);
+    i++;
+}
