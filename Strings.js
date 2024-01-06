@@ -12,3 +12,7 @@ console.log(strr)
 let ss = 'My name is \n sufiyan'
 console.log(ss)
 
+// Using new keyword
+let y = new String("JavaScript") 
+console.log(y)
+
