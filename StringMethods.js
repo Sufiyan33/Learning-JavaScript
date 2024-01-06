@@ -1,0 +1,17 @@
+let y = "Sufiyan"
+
+console.log(y.length)
+console.log(y.charAt(1))
+console.log(y.charCodeAt(2))
+console.log(y.concat("Ahmad"))
+console.log(y.toUpperCase())
+console.log(y.toLowerCase())
+console.log(y.toLocaleLowerCase())
+console.log(y.endsWith("n"))
+console.log(y.includes("z"))
+console.log(y.indexOf("f"))
+console.log(y.lastIndexOf())
+console.log(y.match("ahmad"))
+console.log(y.replace("S"))
+console.log()
+console.log()
