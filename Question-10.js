@@ -1,0 +1,1 @@
+console.log("Write program to show different alert when different button has clicked...")
