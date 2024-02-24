@@ -1,16 +1,13 @@
-console.log("Write program to show different alert when different button has clicked...")
 
-document.getElementById("google").addEventListener("click", function() {
-    window.location="https://google.com";
-    window.focus();
-})
 
-document.getElementById("fb").addEventListener("click", function() {
-    window.location="https://fb.com";
-    window.focus();
-})
+console.log("Write a JavaScript program that fetch data every second")
+const fetchContent = async (url)=>{
+    con = await fetch(url);
+    let a = await con.json()
+    return a;
+}
 
-document.getElementById("x").addEventListener("click", function() {
-    window.location="https://twitter.com";
-    window.focus();
-})
+setInterval(async function() {
+    let url = "https://jsonplaceholder.typicode.com/todos/1git "
+    console.log(await fetchContent(url))
+}, 3000);
