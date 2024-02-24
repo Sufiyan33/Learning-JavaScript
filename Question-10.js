@@ -8,6 +8,6 @@ const fetchContent = async (url)=>{
 }
 
 setInterval(async function() {
-    let url = "https://jsonplaceholder.typicode.com/todos/1git "
+    let url = "https://jsonplaceholder.typicode.com/todos/1"
     console.log(await fetchContent(url))
 }, 3000);
