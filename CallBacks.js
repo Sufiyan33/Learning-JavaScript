@@ -16,13 +16,22 @@ setTimeout(function (){
 console.log("End")*/
 
 // callBacks
-function loadScript(src){
+function loadScript(src, callback){
     let script = document.createElement("script")
     script.src=src
     script.onload = function() {
         console.log("Script has been loaded : " + src)
+        callback(src);
     }
     document.body.appendChild(script)
 }
 
-loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js")
+function hello(src){
+    alert("Hello world!!!" + src) 
+}
+
+function goodMorning(src){
+    alert("Good morning" + src)
+}
+
+loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js", goodMorning)
