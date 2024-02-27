@@ -47,6 +47,5 @@ function goodMorning(error, src){
     alert("Good morning" + src)
 }
 
-loadScript("https://cdn.jssdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js", hello)
-
 // May be somethime script will not load then in this case we need to handle Exception let's handle...
+loadScript("https://cdn.jssdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js", hello)
