@@ -7,4 +7,8 @@ let p = new Promise((resolve, reject) => {
     }, 5000)
 })
 
-console.log(p)
+//console.log(p)
+
+p.then((value) =>{
+    console.log(value)
+})
