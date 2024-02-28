@@ -23,6 +23,8 @@ p.then((value) =>{
     console.log(value)
 })
 
+p.then(alert("Oh!!! sorry error occured..."))
+
 p.catch((error) =>{
     console.log("some issue occured in promises...")
 })

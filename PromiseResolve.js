@@ -12,3 +12,11 @@ let p = new Promise((resolve, reject) => {
 p.then((value) =>{
     console.log(value)
 })
+
+// or you can also use like below ::
+
+p.then((value) =>{
+    console.log(value)
+}, (error) =>{
+    console.log(error)
+})
