@@ -64,3 +64,29 @@ let promis_all = Promise.allSettled([p1,p2,p3,p4])
 promis_all.then((value)=>{
     console.log(value)
 })
+
+/*
+    let say you want that give me promise value which resolve first. then you can use promise.race methods.
+    but if promise give error then it will show you error on consle.
+    In order to replicate this issue you need to comment all above console code...
+*/
+
+let promis_race = Promise.allSettled([p1,p2,p3,p4])
+promis_all.then((value)=>{
+    console.log(value)
+})
+
+/*
+    let say you want that give me promise value which resolve first. then you can use promise.any methods.
+    but if promise give error then it will not show you error on consle.
+    In order to replicate this issue you need to comment all above console code...
+*/
+
+let promis_any = Promise.allSettled([p1,p2,p3,p4])
+promis_all.then((value)=>{
+    console.log(value)
+})
+
+/*
+    similary you can use promise.resolve and promise.reject methods.
+*/
