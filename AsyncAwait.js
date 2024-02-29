@@ -26,4 +26,6 @@ async function sufiyan(){
 
 console.log("Welcome to weather control room")
 let a = sufiyan()
-console.log(a)
+a.then((value)=>{
+    console.log(value)
+})
