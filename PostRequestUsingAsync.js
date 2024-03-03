@@ -23,3 +23,5 @@ const mainFunc= async() =>{
 }
  
 mainFunc()
+
+// YOu can also supply your todo function in async
