@@ -4,7 +4,7 @@ class Animal{
     }
 
     fly(){
-        alert("Mai udh raha hu ~~~~")
+        console.log("Mai udh raha hu ~~~~")
     }
 
     // let's create getter to get values...
@@ -23,3 +23,9 @@ a.fly()
 console.log(a.name)
 a.name = "Jack"
 console.log(a.name)
+
+// let's have a look into instance of operator...
+
+console.log(a instanceof Animal)
+let c = 56;
+console.log(c instanceof Animal)
