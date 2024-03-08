@@ -32,6 +32,8 @@ const x = {
         setTimeout(function() {
             console.log(this)
             console.log(`The name is ${this.name} \nThe role is ${this.role} \nAnd experience is ${this.exp}`)
+            // console will print undefined for this...
+            // inorder to solve this issue make this arrow function...
         }, 2000);
     }
 }
@@ -39,8 +41,9 @@ const x = {
 x.show()
 
 /*
-    There are 3 different value of this :
+    There are different value of this :
     1 : if you print this alone or outside everything then it will return Global object.
     2 : if you print inside function which use function keyword like above then this refer to window object.
     3 : if you print this inside of any event then this refer to event elements.
+    4 : if you print this inside arrow function then it will return lexical this means object not undefined..
 */
