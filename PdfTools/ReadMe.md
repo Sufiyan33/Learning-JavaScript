@@ -8,6 +8,7 @@ Buy using this application you can merge two or more pdf in a single file.
 - Express
 - Node.js
 - nodemon (similar to deveTools)
+- multer
 
 #Commands :
 
@@ -24,3 +25,5 @@ Buy using this application you can merge two or more pdf in a single file.
 
 - Now run file using below command instead of node server.js :
   - nodemon server.js
+- In oerder to select multiple file you need node js multer, use below command:
+  - npm i multer
