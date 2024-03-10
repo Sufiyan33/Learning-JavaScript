@@ -1,0 +1,13 @@
+{
+  "name": "pdftools",
+  "version": "1.0.0",
+  "description": "Hi Here, i am going to build a project name is : Pdf merger. Buy using this application you can merge two or more pdf in a single file.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
