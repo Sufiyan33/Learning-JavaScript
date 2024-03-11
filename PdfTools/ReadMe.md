@@ -27,3 +27,5 @@ Buy using this application you can merge two or more pdf in a single file.
   - nodemon server.js
 - In oerder to select multiple file you need node js multer, use below command:
   - npm i multer
+- We need pdf merge, to do that use below :
+  - npm i pdf-merger-js
