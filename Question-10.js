@@ -1,5 +1,3 @@
-
-
 console.log("Write a JavaScript program that fetch data every second")
 const fetchContent = async (url)=>{
     con = await fetch(url);
