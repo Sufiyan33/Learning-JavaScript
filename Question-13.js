@@ -7,3 +7,11 @@ const heightJohn = 1.95;
 const BMIMark = massMark / (heightMark ** 2);
 const BMIJohn = massJohn / (heightJohn ** 2);
 console.log(BMIJohn, BMIMark);
+
+console.log("use string literal to decorate output")
+
+if(BMIMark > BMIJohn){
+    console.log(`Mark's BMI is (${BMIMark}) is heigher than John's (${BMIJohn})!`);
+}else{
+    console.log(`John's BMI is (${BMIJohn}) is heigher than Mark's (${BMIMark})!`);
+}
